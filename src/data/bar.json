@@ -1,0 +1,47 @@
+[
+  {
+    "color": "#e77355",
+    "data": [
+      {
+        "labelColor": "#777777",
+        "x": 20.5,
+        "y": "Critical"
+      }
+    ],
+    "name": "Critical"
+  },
+  {
+    "color": "#f29d56",
+    "data": [
+      {
+        "labelColor": "#777777",
+        "x": 3.5,
+        "y": "High"
+      }
+    ],
+    "name": "High"
+  },
+  {
+    "color": "#f1bf43",
+    "data": [
+      {
+        "color": "#ef8057",
+        "labelColor": "white",
+        "x": 78.55,
+        "y": "Mid"
+      }
+    ],
+    "name": "Mid"
+  },
+  {
+    "color": "#6ab04c",
+    "data": [
+      {
+        "labelColor": "#777777",
+        "x": 10.55,
+        "y": "Low"
+      }
+    ],
+    "name": "Low"
+  }
+]

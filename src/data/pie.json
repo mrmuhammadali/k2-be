@@ -1,0 +1,14 @@
+[
+  {
+    "label": "Success",
+    "value": 45
+  },
+  {
+    "label": "Inprogress",
+    "value": 22.5
+  },
+  {
+    "label": "Failure",
+    "value": 22.5
+  }
+]

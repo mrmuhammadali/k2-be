@@ -1,0 +1,22 @@
+[
+  {
+    "color": "#ffb964",
+    "name": "Android",
+    "value": 10
+  },
+  {
+    "color": "#a26be9",
+    "name": "A.Tablet",
+    "value": 4
+  },
+  {
+    "color": "#6098f3",
+    "name": "iPhone",
+    "value": 65
+  },
+  {
+    "color": "#71af4f",
+    "name": "iPad",
+    "value": 15
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "name": "ballchasing",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@koa/cors": "^3.0.0",
+    "dotenv": "^8.2.0",
+    "fusion-cli": "^2.6.0",
+    "fusion-core": "^2.0.9",
+    "fusion-plugin-http-router": "^0.4.1",
+    "fusion-tokens": "^2.0.9"
+  },
+  "scripts": {
+    "dev": "fusion dev --port=4000",
+    "lint": "eslint . --fix",
+    "build": "fusion build",
+    "build-production": "fusion build --production",
+    "start": "fusion start --port=$PORT",
+    "test": "fusion test --passWithNoTests",
+    "heroku-postbuild": "fusion build --production && sed -i \"s;$(pwd);/app;g\" .fusion/dist/production/server/server-main.js"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.5.1",
+    "eslint-config-fusion": "^6.0.7",
+    "eslint-plugin-cup": "^2.0.2",
+    "eslint-plugin-flowtype": "^4.3.0",
+    "eslint-plugin-graphql": "^3.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.20.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.1.2",
+    "prettier": "^1.18.2"
+  },
+  "files": [
+    "dist",
+    "src"
+  ]
+}

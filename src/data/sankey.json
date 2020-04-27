@@ -1,0 +1,137 @@
+{
+  "links": [
+    {
+      "color": "#30b1d9",
+      "id": "Link1",
+      "sourceId": "Node4",
+      "targetId": "Node5",
+      "value": 360
+    },
+    {
+      "color": "#6ab04c",
+      "id": "Link2",
+      "sourceId": "Node5",
+      "targetId": "Node1",
+      "value": 50
+    },
+    {
+      "color": "#b177bb",
+      "id": "Link3",
+      "sourceId": "Node1",
+      "targetId": "Node6",
+      "value": 50
+    },
+    {
+      "color": "#6ab04c",
+      "id": "Link4",
+      "sourceId": "Node5",
+      "targetId": "Node3",
+      "value": 300
+    },
+    {
+      "color": "#b177bb",
+      "id": "Link5",
+      "sourceId": "Node3",
+      "targetId": "Node6",
+      "value": 32
+    },
+    {
+      "color": "#b177bb",
+      "id": "Link6",
+      "sourceId": "Node3",
+      "targetId": "Node7",
+      "value": 318
+    },
+    {
+      "color": "#6ab04c",
+      "id": "Link7",
+      "sourceId": "Node5",
+      "targetId": "Node2",
+      "value": 6
+    },
+    {
+      "color": "#b177bb",
+      "id": "Link8",
+      "sourceId": "Node2",
+      "targetId": "Node6",
+      "value": 4
+    },
+    {
+      "color": "#b177bb",
+      "id": "Link9",
+      "sourceId": "Node2",
+      "targetId": "Node7",
+      "value": 378
+    },
+    {
+      "color": "#30b1d9",
+      "id": "Link10",
+      "sourceId": "Node8",
+      "targetId": "Node9",
+      "value": 376
+    },
+    {
+      "color": "#6ab04c",
+      "id": "Link11",
+      "sourceId": "Node9",
+      "targetId": "Node2",
+      "value": 376
+    }
+  ],
+  "nodes": [
+    {
+      "color": "#c89fcf",
+      "id": "Node2",
+      "label": "Medium",
+      "level": "priority"
+    },
+    {
+      "color": "#b177bb",
+      "id": "Node3",
+      "label": "Low",
+      "level": "priority"
+    },
+    {
+      "color": "#e0c8e4",
+      "id": "Node1",
+      "label": "High",
+      "level": "priority"
+    },
+    {
+      "color": "#6dc8e4",
+      "id": "Node8",
+      "label": "Deployment",
+      "level": "category"
+    },
+    {
+      "color": "#30b1d9",
+      "id": "Node4",
+      "label": "Testing",
+      "level": "category"
+    },
+    {
+      "color": "#87a1c6",
+      "id": "Node6",
+      "label": "In Progress",
+      "level": "status"
+    },
+    {
+      "color": "#5579ae",
+      "id": "Node7",
+      "label": "Pending",
+      "level": "status"
+    },
+    {
+      "color": "#96c781",
+      "id": "Node9",
+      "label": "Octavian Stepan",
+      "level": "user"
+    },
+    {
+      "color": "#6ab04c",
+      "id": "Node5",
+      "label": "Tony Ojeda",
+      "level": "user"
+    }
+  ]
+}
